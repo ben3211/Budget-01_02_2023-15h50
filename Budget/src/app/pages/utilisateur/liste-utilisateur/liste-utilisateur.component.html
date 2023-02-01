@@ -1,0 +1,8 @@
+<h3>Liste des utilisateurs</h3>
+<ul>
+  <!-- <li *ngFor = "let r of resultatsResearch">{{r.libelle}}
+  </li> -->
+</ul>
+<app-list-search-result *ngIf="resultatsResearch" (searchResultClick)="showDetail($event)"
+  [searchResult]="resultatsResearch"></app-list-search-result>
+

@@ -1,0 +1,8 @@
+<p>details-transactions works!</p>
+<div *ngIf="utilisateur">
+    <h3>Utilisateur : {{utilisateur.Nom}}</h3>
+    <ul *ngFor="let t of utilisateur.Transactions">
+        <li>{{t.l}}, {{t.m}}, {{t.d}}</li>
+      </ul>      
+</div>
+  
