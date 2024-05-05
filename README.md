@@ -1,2 +1,2 @@
 # Projet-budget-IbGoup
-Simple budget management app with different user
+Budget management app with different user
